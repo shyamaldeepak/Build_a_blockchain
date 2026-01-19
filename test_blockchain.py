@@ -11,7 +11,7 @@ def start_node(port):
                                stdout=subprocess.PIPE, 
                                stderr=subprocess.PIPE)
     return process
-
+# Main test function
 def test_blockchain():
     node1_port = 5001
     node2_port = 5002
