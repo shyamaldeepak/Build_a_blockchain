@@ -3,7 +3,7 @@ import requests
 import subprocess
 import sys
 import os
-
+#-- Assume blockchain.py is in the same directory as this test script
 def start_node(port):
     print(f"Starting node on port {port}...")
     # Use python executable relative to current env if possible, or just 'python'
